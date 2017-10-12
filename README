@@ -1,0 +1,23 @@
+Short Answer
+1.
+Use :%s/fun/bmazing/g to replace all words of "fun"
+to "bmazing"
+Use :%s/fun/bmazing to replace first occurence in each line.
+2.
+Type mkdir fooDir/barDir.
+3.
+You use a wildcard whenever you want to do a command to all
+of the files with similar name at once. For example,
+use javac *.java to compile all files that end in
+.java.
+4. You use vim -p *.java
+5.Static in regards to methods is something that is shared. 
+Anyone can use static methods even if the object of that class
+hasn't been made yet. For example, suppose you want to find
+out the radius of a circle given the Area. There is another 
+class that has made it but you don't want to create a class so 
+you could just use the static method to discover the radius.
+6.The student should create a super class called ShapeDrawer.
+And have several subclasses RedCircle, BlueCircle, YellowCircle,
+GreenCircle that would have the draw methods in them.
+
